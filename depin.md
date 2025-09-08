@@ -3,7 +3,7 @@
 ## 1. DePIN Overview — 정의와 핵심 특성
 
 ### 1-1. DePIN이란?
-
+![what-is-depin](/images/what-is-depin.png)
 **DePIN**은 블록체인과 스마트컨트랙트를 이용해 \*\*현실 세계의 인프라(무선·에너지·스토리지·센서·물류 등)\*\*를 커뮤니티가 함께 구축·운영하는 모델이다. 참여자는 하드웨어와 서비스를 공급하고, 사용자는 이를 쓰며, **정산·보상·감사**는 온체인 규칙으로 자동화된다. 결과적으로 참여 장애가 낮아지고, **투명성·신뢰성**이 높아진다. 
 
 ### 1-2. 어떻게 작동하나
@@ -18,11 +18,11 @@
 * **목표**: 금융 그 자체가 아니라 **현실 서비스**를 분산화.
 * **가치 흐름**: 사용량(전력·대역폭·저장·데이터) → **온체인 과금/소각형 회계** → 공급자 보상.
 * **장점/리스크**: 개방적 참여·비용 효율·추적성 vs. **확장성·규제 불확실성**, 물리적 기여 **검증 난도**. 
-
+![depin](/images/depin.png)
 ---
 
 ## 2. DePIN 구축 및 생태계 운영 단계별 상세 프로세스
-
+![depin-process](/images/depin%20process.png)
 ### 1단계: 실물 인프라 목적 및 서비스 영역/시장 검토
 
 - 구축할 인프라(통신·전력·컴퓨팅·데이터 등) 맞춤 전략 수립
@@ -74,7 +74,7 @@
 ---
 
 ## 3. DePIN vs DeFi, 그리고 DeREN이란?
-
+![depin-vs-defi](/images/depin%20vs%20defi.png)
 ### 3-1. DePIN과 DeFi의 핵심 차이
 
 - **목표 영역**:
@@ -116,31 +116,31 @@
 ---
 
 ### 4-1. Powerledger (POWR) — P2P 전력 거래 & 그린에너지 트레이싱
-
+![power-ledger](/images/power%20ledger.png)
 * **프로젝트 개요**: 동네 단위 잉여 전력을 이웃과 사고팔고(로컬), 더 넓게는 배전망 단위로(광역) 거래·정산·추적까지 한 번에 처리. 스마트미터 측정치와 요금제·세금 규칙을 반영한다.
 * **체인/토큰**: POWR는 이더리움에 남겨 **보안·유동성**을 유지하고, 에너지 애플리케이션은 솔라나 성능을 활용하는 **하이브리드 아키텍처**를 채택. 2025년엔 Wormhole **NTT**로 POWR의 **네이티브 멀티체인 전송**을 열었다.
 * **특징**: 지역 전력시장 규제(소매사업자 면허, 정산 규칙)와의 정합이 관건. 환경상품(REC) 추적까지 묶어 **보고·감사**를 간단히 하려는 수요가 많다.
 
 ### 4-2. VeChain (VET/VTHO) — 공급망 추적 & 엔터프라이즈 DePIN
-
+![vechain](/images/vechain.png)
 * **프로젝트 개요**: 원산지·운송·보관 이력 위변조 문제. NFC/RFID/QR·IoT 센서 이벤트를 **VeChainThor**에 기록해 **감사 가능한 족적**을 만든다.
 * **검증/체인**: **PoA 2.0** 노드 체계와 **VET/VTHO 이중 토큰**으로 **수수료 예측성**을 확보해 기업 도입 장벽을 낮춘다.
 * **특징**: 태그·스캔 절차·창고 SOP 같은 **오라클(현장) 품질**이 핵심. ERP/WMS 연동을 미리 설계하면 롤아웃이 빨라진다.
 
 ### 4-3. Helium — 탈중앙 무선 통신망
-
+![helium](/images/helium.png)
 * **프로젝트 개요**: LoRaWAN IoT·모바일 데이터의 **저비용 커버리지** 확보. 개인이 설치한 **핫스팟**이 RF 커버리지를 제공한다.
 * **검증/체인**: **Proof-of-Coverage**로 위치·커버리지를 검증하고, **PoC 오라클**이 비콘/증인 이벤트를 집계해 보상에 반영. 체인 정산은 2023-04 Solana 이주로 대폭 가벼워졌다.
 * **특징**: 위치 스푸핑 방지(안테나, GPS, RF 프로파일)와 설치 지침이 품질을 가른다.
 
 ### 4-4. Filecoin (FIL) — 분산 스토리지 네트워크
-
+![filecoin](/images/filecoin.png)
 * **프로젝트 개요**: 중앙 클라우드 의존을 줄이고 **저장 내구성**을 암호학적으로 검증.
 * **검증/체인**: 초기에는 **PoRep**으로 **고유 복제본**을 만들었는지 증명하고, 운영 중에는 **PoSt**로 **지속 저장**을 정기 검증한다. 
 * **특징**: 장기 보존·대용량 워크로드에서 **증명 비용 최적화**와 **데이터 복구 성능**(Retrieval)이 실사용 만족도를 좌우한다.
 
 ### 4-5. Internet Computer (ICP) — 데이터센터 기반 온체인 컴퓨팅/스토리지
-
+![icp](/images/icp.png)
 * **프로젝트 개요**: 백엔드 서버·DB·웹 호스팅을 하나의 온체인 런타임(**캔니스터**)로 대체해 **단일 스택 배포**를 가능하게 한다.
 * **검증/체인**: **체인-키 암호**로 서브넷 다수 정직 노드만이 유효 서명을 만들고 상태를 확정. 개발자는 **ICP → cycles**로 바꿔 연산·스토리지 비용을 지불한다(XDR 페그).
 * **특징**: 대역폭/지연·원가 경쟁력은 워크로드마다 다르다. 외부 체인 연동(체인 퓨전) 요구가 늘고 있다.
@@ -148,7 +148,7 @@
 ---
 
 ## 5. DePIN의 **장단점**과 **해결 과제**
-
+![pros-and-cons](/images/pros%20and%20cons.png)
 ### 5-1. 장점
 
 * **비용 효율·직접 연결**: 중개를 줄이고 자원 할당을 자동화해 요금을 낮추고 정산을 빠르게 한다. 실사용이 늘수록 공급자 보상도 구조적으로 맞물린다. 
@@ -192,20 +192,25 @@ DeFi/Web3가 디지털 금융에 초점을 맞췄다면, DePIN은 **실물자원
 ### 과제 해결 시 대중화 가능성 
 
 확장성·보안·규제 이슈를 해소하면, DePIN은 기존 인프라를 대체·보완하며 **새로운 산업 아키텍처**의 기점이 될 수 있다.
-
+![depin-future](/images/depin-future.png)
 ---
 
 ### 출처
 
-- [Cryptonews — What is DePIN: Decentralized Physical Networks (2025)](https://cryptonews.com/cryptocurrency/what-is-depin/?utm_source=chatgpt.com)
-- [Powerledger — Powerledger enables seamless POWR token transfers between Ethereum and Solana with Wormhole NTT](https://powerledger.io/media/powerledger-enables-seamless-powr-token-transfers-between-ethereum-and-solana-with-wormhole-ntt?utm_source=chatgpt.com)
-- [VeChain Docs — Dual-Token Economic Model (VET/VTHO)](https://docs.vechain.org/introduction-to-vechain/dual-token-economic-model?utm_source=chatgpt.com)
-- [VeChain Foundation (Medium) — PoA 2.0: World’s Greenest Consensus](https://medium.com/vechain-foundation/a-revolutionary-protocol-poa-2-0-worlds-greenest-consensus-to-drive-sustainable-mass-adoption-e33b1b6646b8?utm_source=chatgpt.com)
-- [Helium Docs — Proof-of-Coverage](https://docs.helium.com/iot/proof-of-coverage/?utm_source=chatgpt.com)
-- [Helium Foundation — Protocol Report 2023 Q1](https://www.helium.foundation/protocol-report-2023-q1?utm_source=chatgpt.com)
-- [Filecoin Docs — Proofs (PoRep/PoSt)](https://docs.filecoin.io/basics/the-blockchain/proofs?utm_source=chatgpt.com)
-- [ICP Learn — Chain-Key Cryptography](https://learn.internetcomputer.org/hc/en-us/articles/34209486239252-Chain-Key-Cryptography?utm_source=chatgpt.com)
-- [ICP Docs — Tokens & Cycles](https://internetcomputer.org/docs/building-apps/getting-started/tokens-and-cycles?utm_source=chatgpt.com)
-- [Powerledger — Solana Welcomes Powerledger](https://powerledger.io/media/solana-welcomes-powerledger/?utm_source=chatgpt.com)
-- [DigitalAsset.Works — 분산형 물리적 인프라 네트워크 ‘DePIN’ 모델 분석](https://www.digitalasset.works/news/articleView.html?idxno=6805&utm_source=chatgpt.com)
-- [Helium Docs — Solana Migration Overview](https://docs.helium.com/solana/migration?utm_source=chatgpt.com)
+- [Cryptonews — What is DePIN: Decentralized Physical Networks (2025)](https://cryptonews.com/cryptocurrency/what-is-depin)
+- [Powerledger — Powerledger enables seamless POWR token transfers between Ethereum and Solana with Wormhole NTT](https://powerledger.io/media/powerledger-enables-seamless-powr-token-transfers-between-ethereum-and-solana-with-wormhole-ntt)
+- [VeChain Docs — Dual-Token Economic Model (VET/VTHO)](https://docs.vechain.org/introduction-to-vechain/dual-token-economic-model)
+- [VeChain Foundation (Medium) — PoA 2.0: World’s Greenest Consensus](https://medium.com/vechain-foundation/a-revolutionary-protocol-poa-2-0-worlds-greenest-consensus-to-drive-sustainable-mass-adoption-e33b1b6646b8)
+- [Helium Docs — Proof-of-Coverage](https://docs.helium.com/iot/proof-of-coverage)
+- [Helium Foundation — Protocol Report 2023 Q1](https://www.helium.foundation/protocol-report-2023-q1)
+- [Filecoin Docs — Proofs (PoRep/PoSt)](https://docs.filecoin.io/basics/the-blockchain/proofs)
+- [ICP Learn — Chain-Key Cryptography](https://learn.internetcomputer.org/hc/en-us/articles/34209486239252-Chain-Key-Cryptography)
+- [ICP Docs — Tokens & Cycles](https://internetcomputer.org/docs/building-apps/getting-started/tokens-and-cycles)
+- [Powerledger — Solana Welcomes Powerledger](https://powerledger.io/media/solana-welcomes-powerledger)
+- [DigitalAsset.Works — 분산형 물리적 인프라 네트워크 ‘DePIN’ 모델 분석](https://www.digitalasset.works/news/articleView.html?idxno=6805)
+- [Helium Docs — Solana Migration Overview](https://docs.helium.com/solana/migration)
+- [DePIN(분산형 물리적 인프라 네트워크)이란 무엇입니까?](https://medium.com/%40IoTeX_korea/depin-%EB%B6%84%EC%82%B0%ED%98%95-%EB%AC%BC%EB%A6%AC%EC%A0%81-%EC%9D%B8%ED%94%84%EB%9D%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9E%85%EB%8B%88%EA%B9%8C-426159a5d1bf)
+- [What Is DePIN? A Guide to Decentralized Physical Infrastructure Network](https://nftevening.com/what-is-depin/)
+- [From Defi to Depin](https://medium.com/coinmonks/from-defi-to-depin-smartgolf-and-the-future-of-sports-on-web3-a316fc33ef7f)
+- [What is Helium? A Guide to the DePIN Project Earning Through Network Infrastructure – Understanding its Ecosystem and SubDAOs](https://pacific-meta.co.jp/en/report/helium-explained/)
+- [VeChain Has A Huge Role In #DePIN And Supply Chain Management!](https://mobile.x.com/CryptoBusy/status/1842322428955103237)
